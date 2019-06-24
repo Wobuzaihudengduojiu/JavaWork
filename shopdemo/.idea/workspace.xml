@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shopdemo:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b97dee17-f647-47d5-a295-22322ef2100d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/aution/AutionInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/cart/AddCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/cart/DeleteCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/AutionInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/AutionTypeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ShopCartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionInfoDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionTypeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/instance/ShopCartDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/instance/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/InitFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/AutionInfoDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/AutionTypeDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/OrderDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/ShopCartDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/UserDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/param/AutionInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/param/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/entity/param/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/AutionInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ShopCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/AutionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/ShopCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PathConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/UUIDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/factory/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/commen/web/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/commen/web/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/151219-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/151219-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/151219-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/151219-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/151219-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/151219.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/swiper3.07.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/web/aution/autionInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/web/shoppingcart/cartList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/shopdemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/aution/AutionInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/cart/AddCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/cart/DeleteCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/AutionInfoDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/AutionTypeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/BaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/ShopCartDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/impl/instance/AutionInfoDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/impl/instance/AutionList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/impl/instance/AutionTypeDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/impl/instance/ShopCartDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao/impl/instance/UserDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/filter/CharsetFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/filter/InitFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/AutionInfoDo$AutionInfoDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/AutionInfoDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/AutionTypeDo$AutionTypeDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/AutionTypeDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/OrderDo$OrderDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/OrderDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/ShopCartDo$ShopCartDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/ShopCartDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/UserDo$UserDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/UserDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/param/AutionInfoVo$AutionInfoVoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/param/AutionInfoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pojo/entity/param/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/AutionInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/ShopCartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/impl/AutionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/impl/ShopCartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/PathConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/ServiceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/UUIDUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/factory/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/factory/FactoryProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/META-INF/shopdemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/controller/aution/AutionInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/controller/cart/AddCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/controller/cart/DeleteCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/AutionInfoDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/AutionTypeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/BaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/ShopCartDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/impl/instance/AutionInfoDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/impl/instance/AutionList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/impl/instance/AutionTypeDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/impl/instance/ShopCartDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/dao/impl/instance/UserDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/filter/CharsetFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/filter/InitFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/AutionInfoDo$AutionInfoDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/AutionInfoDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/AutionTypeDo$AutionTypeDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/AutionTypeDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/OrderDo$OrderDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/OrderDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/ShopCartDo$ShopCartDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/ShopCartDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/UserDo$UserDoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/UserDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/param/AutionInfoVo$AutionInfoVoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/param/AutionInfoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/pojo/entity/param/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/service/AutionInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/service/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/service/ShopCartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/service/impl/AutionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/service/impl/ShopCartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/utils/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/utils/PathConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/utils/ServiceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/utils/UUIDUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/utils/factory/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/classes/utils/factory/FactoryProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/lib/mysql-connector-java-5.1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/commen/web/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/commen/web/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/font/151219-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/font/151219-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/font/151219-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/font/151219-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/font/151219-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/font/151219.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/css/swiper3.07.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/image/002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/image/006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/js/html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/js/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/jsp/web/aution/autionInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/shopdemo/jsp/web/shoppingcart/cartList.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/web/shoppingcart/cartList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="92" column="14" lean-forward="true" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="jsf" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/PathConstence.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/commen/web/left.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/entity/AuctionInfoDo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/entity/AutionTypeDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/entity/AutionInfoDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AddCartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/entity/param/AutionInfoVo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/web/aution/autionList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/PathConstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/FactoryProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/PathConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CartListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AddCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/DeleteCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/entity/param/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/AutionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/Initlistener.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/commen/web/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/AutionTypeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/impl/instance/AautionInfoDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/AutionInfoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/impl/instance/ShopCatDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/impl/AutionTypeDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionInfoDAOImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/cart/CartListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/entity/ShopCartDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/InitFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ShopCartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/impl/ShopCartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ShopCartDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/cart/DeleteCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/cart/AddCartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/impl/instance/ShopCartDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/impl/AutionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/aution/AutionInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/web/shoppingcart/cartList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/web/aution/autionInfo.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/Maven/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="aution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559568247229" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\shopdemo\src\main\webapp\image" />
+      <recent name="G:\shopdemo\src\main\webapp" />
+      <recent name="G:\shopdemo\src\main\webapp\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\shopdemo\src\main\webapp\image" />
+      <recent name="G:\shopdemo\src\main\webapp\jsp" />
+      <recent name="G:\shopdemo\src\main\webapp\jsp\web\shoppingcart" />
+      <recent name="G:\shopdemo\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="shopdemo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shopdemo_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9686" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shopdemo:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b97dee17-f647-47d5-a295-22322ef2100d" name="Default Changelist" comment="" />
+      <created>1554641697939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554641697939</updated>
+      <workItem from="1554641701125" duration="3217000" />
+      <workItem from="1554679764484" duration="3157000" />
+      <workItem from="1554682958718" duration="433000" />
+      <workItem from="1554683423490" duration="8303000" />
+      <workItem from="1554707308548" duration="5254000" />
+      <workItem from="1554888204291" duration="19000" />
+      <workItem from="1555239900643" duration="10242000" />
+      <workItem from="1555288699895" duration="13034000" />
+      <workItem from="1555316446864" duration="599000" />
+      <workItem from="1555317302059" duration="28000" />
+      <workItem from="1555317627653" duration="66000" />
+      <workItem from="1556090465775" duration="5763000" />
+      <workItem from="1556162937788" duration="398000" />
+      <workItem from="1556192643005" duration="1965000" />
+      <workItem from="1556529821949" duration="225000" />
+      <workItem from="1557127100746" duration="878000" />
+      <workItem from="1557128957863" duration="1363000" />
+      <workItem from="1557132254151" duration="804000" />
+      <workItem from="1557137505700" duration="245000" />
+      <workItem from="1557142639013" duration="69000" />
+      <workItem from="1557367914050" duration="452000" />
+      <workItem from="1558839586680" duration="4472000" />
+      <workItem from="1558917981037" duration="5167000" />
+      <workItem from="1558934026578" duration="16811000" />
+      <workItem from="1558962725792" duration="31000" />
+      <workItem from="1559017053801" duration="17087000" />
+      <workItem from="1559053692379" duration="24000" />
+      <workItem from="1559113203912" duration="10912000" />
+      <workItem from="1559201730627" duration="8821000" />
+      <workItem from="1559350411216" duration="12051000" />
+      <workItem from="1559366942615" duration="31871000" />
+      <workItem from="1559443261240" duration="3565000" />
+      <workItem from="1559458723325" duration="2087000" />
+      <workItem from="1559538750995" duration="668000" />
+      <workItem from="1559543162233" duration="4586000" />
+      <workItem from="1559548449838" duration="2120000" />
+      <workItem from="1559722469956" duration="2614000" />
+      <workItem from="1560151049617" duration="1355000" />
+      <workItem from="1560176217349" duration="465000" />
+      <workItem from="1560211999197" duration="33000" />
+      <workItem from="1561358087981" duration="583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="181837000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="23" width="1550" height="848" extended-state="7" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.08746356" side_tool="true" visible="true" weight="0.1883378" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.91253644" visible="true" weight="0.1883378" />
+      <window_info id="Structure" order="7" sideWeight="0.13625866" side_tool="true" weight="0.14712153" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.10053619" side_tool="true" visible="true" weight="0.041899443" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49520257" weight="0.17363344" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.4989339" weight="0.03215434" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.89946383" weight="0.54189944" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49946696" weight="0.39871383" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" sideWeight="0.49946696" weight="0.040728834" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.02010724" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.019722814" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/factory/FactoryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/factory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/entity/param/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://F:/Tomcat9.0/apache-tomcat-9.0.12/lib/servlet-api.jar!/javax/servlet/FilterConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Tomcat9.0/apache-tomcat-9.0.12/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/CharsetFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/Initlistener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="601" column="90" selection-start-line="601" selection-start-column="90" selection-end-line="601" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/entity/UserDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/instance/ShopCatDAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AutionTypeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/commen/web/navigation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/commen/web/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/entity/OrderDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/entity/param/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/entity/ShopCartDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ShopCartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/ShopCartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AutionInfoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ShopCartDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="33" column="69" lean-forward="true" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionTypeDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/instance/ShopCartDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/InitFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/instance/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AutionInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/cart/DeleteCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/cart/AddCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="126" column="21" lean-forward="true" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/aution/AutionInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/entity/AutionInfoDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/cart/CartListController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/web/aution/autionInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/image/006.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/image/002.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/entity/AutionTypeDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/instance/AutionInfoDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PathConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/AutionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/web/shoppingcart/cartList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="92" column="14" lean-forward="true" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shopdemo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shopdemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
